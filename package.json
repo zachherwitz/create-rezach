@@ -1,0 +1,37 @@
+{
+  "name": "create-rezach",
+  "version": "1.0.0",
+  "description": "Scaffold minimal Vite + React + TS projects without the bloat",
+  "bin": {
+    "create-rezach": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "dist/",
+    "templates/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "create",
+    "scaffold",
+    "vite",
+    "react",
+    "typescript",
+    "template"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.11.0",
+    "@types/prompts": "^2.4.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
